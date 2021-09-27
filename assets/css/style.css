@@ -591,6 +591,46 @@ section {
   bottom: 0;
 }
 
+
+/*--------------------------------------------------------------
+# Project Details
+--------------------------------------------------------------*/
+#project .container-fluid, #project .container-sm, #project .container-md, #project .container-lg, #project .container-xl, #project .container-xxl {
+  max-width: 1920px;
+}
+#project .container-fluid .project-box, #portfolio .container-sm .project-box, #project .container-md .project-box, #project .container-lg .project-box, #project .container-xl .project-box, #project .container-xxl .project-box {
+  position: relative;
+  display: block;
+}
+#project .container-fluid .project-box .project-box-caption, #project .container-sm .project-box .project-box-caption, #project .container-md .project-box .project-box-caption, #project .container-lg .project-box .project-box-caption, #project .container-xl .project-box .project-box-caption, #project .container-xxl .project-box .project-box-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(244, 98, 58, 0.9);
+  transition: opacity 0.25s ease;
+  text-align: center;
+}
+#project .container-fluid .project-box .project-box-caption .project-category, #project .container-sm .project-box .project-box-caption .project-category, #project .container-md .project-box .project-box-caption .project-category, #project .container-lg .project-box .project-box-caption .project-category, #project .container-xl .project-box .project-box-caption .project-category, #project .container-xxl .project-box .project-box-caption .project-category {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#project .container-fluid .project-box .project-box-caption .project-name, #project .container-sm .project-box .project-box-caption .project-name, #project .container-md .project-box .project-box-caption .project-name, #project .container-lg .project-box .project-box-caption .project-name, #project .container-xl .project-box .project-box-caption .project-name, #project .container-xxl .project-box .project-box-caption .project-name {
+  font-size: 1.2rem;
+}
+#project .container-fluid .project-box:hover .project-box-caption, #project .container-sm .project-box:hover .project-box-caption, #project .container-md .project-box:hover .project-box-caption, #project .container-lg .project-box:hover .project-box-caption, #project .container-xl .project-box:hover .project-box-caption, #project .container-xxl .project-box:hover .project-box-caption {
+  opacity: 1;
+}
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/

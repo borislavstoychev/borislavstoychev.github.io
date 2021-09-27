@@ -5,4 +5,10 @@ function toggle(section) {
     } else {
         x.style.display = "none";
     }
+
 }
+
+// Activate SimpleLightbox plugin for portfolio items
+new SimpleLightbox({
+    elements: '#project a.project-box'
+});
